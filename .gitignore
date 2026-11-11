@@ -1,0 +1,22 @@
+# Python 虚拟环境与缓存
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 运行时数据、暂存与日志
+run.log
+*.log
+.staging/
+*.db
+*.sqlite3
+*.tmp
+
+# 构建产物（便携版请到 GitHub Releases 下载，或运行 打包.cmd 自行生成）
+发布/
+packaging/build/
+packaging/build.log
+
+# 系统文件
+Thumbs.db
+.DS_Store

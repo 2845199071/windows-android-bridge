@@ -1,0 +1,10 @@
+# .cmd/.bat 是 GBK(cp936) + CRLF，禁止 git 做任何换行/编码转换
+*.cmd -text
+*.bat -text
+
+# 二进制资源按原字节入库
+*.png binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.zip binary
